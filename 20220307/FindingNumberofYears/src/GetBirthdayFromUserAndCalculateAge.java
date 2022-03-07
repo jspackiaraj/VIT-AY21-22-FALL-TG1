@@ -1,10 +1,10 @@
 
-    import java.time.*;
+import java.time.*;
 import java.text.*;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
-public class AgeToJoinVIT {
+public class GetBirthdayFromUserAndCalculateAge {
     public static void main(String[] args){
         DateTimeFormatter dtfCurrDate =  DateTimeFormatter.ofPattern("yyyy-MM-dd");
         LocalDateTime LDCurrentDate = LocalDateTime.now();
