@@ -12,7 +12,7 @@ public class ReadingFromFIle {
                 String data = Reader.nextLine();
                 System.out.println(data);
             }
-
+            Reader.close();
         } catch (Exception e){
             System.out.println(e);
         }
