@@ -11,7 +11,6 @@ public class TestBook {
             + " by " + FirstBook.getAuthor()
             + " with ISBN number " + FirstBook.getIsbn());
 
-            Book SecondBook;
             Scanner inputObject = new Scanner(System.in);
             System.out.print("Enter the Title of the Book : ");
             title = inputObject.nextLine();
@@ -19,7 +18,7 @@ public class TestBook {
             author = inputObject.nextLine();
             System.out.print("Enter the ISBN number of the Book : ");
             isbn = inputObject.nextLine();
-            SecondBook = new Book(title, author, isbn);
+            Book SecondBook = new Book(title, author, isbn);
             System.out.println("The entered book is " + SecondBook.getTitle()
                     + " by " + SecondBook.getAuthor()
                     + " with ISBN number " + SecondBook.getIsbn());
